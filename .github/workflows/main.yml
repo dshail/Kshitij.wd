@@ -1,10 +1,9 @@
-main.yml
-name: Test Action
+name: Test Action  # Ensure this is at the start of the file with no hidden characters
 
 on:
   push:
     branches:
-      - main  # or any branch you want to trigger the action
+      - main  # Ensure proper indentation
 
 jobs:
   test:
